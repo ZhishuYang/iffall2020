@@ -1,0 +1,37 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: midnightblue;
+}
+body{
+    background-color: mintcream;
+}
+img{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-align: center;
+    display: block;
+}
+.songwriter{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color: navy;
+}
+.special{
+    color: goldenrod;
+}
+main{
+    text-align: center;
+    font-size: 18px;
+    color: rebeccapurple;
+}
+footer{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10px;
+    color: slategrey;
+}
