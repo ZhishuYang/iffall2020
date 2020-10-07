@@ -1,0 +1,67 @@
+html{
+    font-family: 'Crimson Text', serif;
+    font-size: 22px;
+}
+header{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    font-weight: bold;
+    color: #07421e
+}
+.font{
+    text-align: center;
+    color: slategrey;
+    font-size: 30px;
+    margin: -0.3%;
+    text-indent: 0;
+}
+.font-weight{
+    font-weight: bold;
+}
+.semibold{
+    font-weight: 600;
+}
+.italic{
+    font-style: italic;
+}
+.em{
+    letter-spacing: 0.5em;
+}
+.space{
+    letter-spacing:-0.08em;
+}
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+    margin-bottom: 10%;
+}
+h1{
+    text-indent: 5rem;
+    margin-top: 5%;
+    color: #221c72;
+}
+h4{
+    text-indent: 8rem;
+    color: teal;
+    margin-bottom: 1%;
+}
+p{
+    text-indent: 8rem;
+    margin-bottom: 5%;
+}
