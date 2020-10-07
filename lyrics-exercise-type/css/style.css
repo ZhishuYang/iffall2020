@@ -1,0 +1,53 @@
+html{
+    font-family: 'Brioso-pro', serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(255, 226, 62);
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+body{
+    background: -webkit-linear-gradient(#38A2D7, #561139);
+}
+img{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1%
+}  
+a{
+    text-align: center;
+    display: block;
+}
+.songwriter{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(255, 226, 62);
+}
+.special{
+    color: gold;
+}
+main{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+footer{
+    font-size: 15px;
+    text-align: right;
+    margin-right: 3%;
+    color: slategrey;
+    font-style: italic;
+}
+i{
+    color: rgb(255, 226, 62);
+    font-size: 30px;
+}
+.second{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
