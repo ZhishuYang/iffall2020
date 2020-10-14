@@ -1,194 +1,273 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8"></meta>
-	<title>Complex CSS Selectors Challenge</title>
-	<link href="https://wudesign.me/resources/complex-selectors/preset.css" rel="stylesheet"></link>
-	<link href="css/styles.css" rel="stylesheet"></link>
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Using Images</title>
+    <link rel="stylesheet" href="https://wudesign.me/resources/using-images/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    
+    <h1>Using Images</h1>
 
-	<section class="content">
+    <article>
 
-		<header>
-			<nav>
-				<ul>
-					<li>
-						<a href="#">Movies</a>
-					</li>
-					<li class="selected">
-						<a href="#">TV-Shows</a>
-					</li>
-					<li>
-						<a href="#">Music</a>
-					</li>
-					<li>
-						<a href="#">Theatre</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+      <h1>The <code class="tag">img</code> tag</h1>
+    
+      <section>
 
-		<ul class="shows">
-			<li id="game-of-thrones">
-				<h1>Game of Thrones</h1>
-				<section class="seasons">
-					<h2>Seasons</h2>
-					<ul>
-						<li>2011</li>
-						<li>2012</li>
-						<li>2013</li>
-						<li>2014</li>
-						<li>2015</li>
-						<li>2016</li>
-						<li>2017</li>
-						<li>2018</li>
-						<li>2019</li>
-					</ul>
-				</section>
-				<section class="synopsis">
-					<h2>Synopsis</h2>
-					<p>In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea.</p>
-				</section>
-				<section class="cast">
-					<h2>Cast</h2>
-					<ul>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1MTI5Mzc0MF5BMl5BanBnXkFtZTYwNzgzOTQz._V1_UY317_CR20,0,214,317_AL_.jpg">
-								<div>Peter Dinklage</div>
-								<div>Tyrion Lannister</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMzIwMjIwNjg0M15BMl5BanBnXkFtZTgwOTI3MDEzMDE@._V1_UY317_CR14,0,214,317_AL_.jpg">
-								<div>Lena Headey</div>
-								<div>Cersei Lannister</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BNjg3OTg4MDczMl5BMl5BanBnXkFtZTgwODc0NzUwNjE@._V1_UX214_CR0,0,214,317_AL_.jpg">
-								<div>Emilia Clarke</div>
-								<div>Daenerys Targaryen</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTA2NTI0NjYxMTBeQTJeQWpwZ15BbWU3MDIxMjgyNzY@._V1_UX214_CR0,0,214,317_AL_.jpg">
-								<div>Kit Harington</div>
-								<div>Jon Snow</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTgyNzE5OTkzMV5BMl5BanBnXkFtZTgwNzM4ODAzMjE@._V1_UY317_CR1,0,214,317_AL_.jpg">
-								<div>Sophie Turner</div>
-								<div>Sansa Stark</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwNDQ3MjY1NV5BMl5BanBnXkFtZTcwMjQzMzEzOQ@@._V1_UY317_CR16,0,214,317_AL_.jpg">
-								<div>Maisie Williams</div>
-								<div>Arya Stark</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MzkzOTk0NF5BMl5BanBnXkFtZTcwNjU5NTgzMQ@@._V1_UX214_CR0,0,214,317_AL_.jpg">
-								<div>Nikolaj Coster-Waldau</div>
-								<div>Jaime Lannister</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NzU2NjI2MF5BMl5BanBnXkFtZTcwMzI1OTQ3Mw@@._V1_UY317_CR131,0,214,317_AL_.jpg">
-								<div>Iain Glen</div>
-								<div>Jorah Mormont</div>
-							</a>
-						</li>
-					</ul>
-					<div>
-						<a href="#" class="see-all">See All...</a>
-					</div>
-				</section>
-			</li>
-			<li id="unbreakable-kimmy-schmidt">
-				<h1>Unbreakable Kimmy Schmidt</h1>
-				<section class="seasons">
-					<h2>Seasons</h2>
-					<ul>
-						<li>2015</li>
-						<li>2016</li>
-					</ul>
-				</section>
-				<section class="synopsis">
-					<h2>Synopsis</h2>
-					<p>After being rescued from an underground bunker in which she lived the past 15 years, Kimmy Schmidt decides to move to New York to have a normal life. She makes friends with her new roommate Titus, and works as a babysitter for Jacqueline Voorhees, the wife of a billionaire with many issues. Even though many obstacles are thrown her way, Kimmy makes the best of her new life while having to adapt to the new world around her.</p>
-				</section>
-				<section class="cast">
-					<h2>Cast</h2>
-					<ul>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzMDU3NzE4NV5BMl5BanBnXkFtZTcwODQyNTQzNA@@._V1_UY317_CR5,0,214,317_AL_.jpg">
-								<div>Ellie Kemper</div>
-								<div>Kimmy Schmidt</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="http://wudesign.me/resources/complex-selectors/images/titus.jpg">
-								<div>Titus Burgess</div>
-								<div>Titus Andromedon</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3NDgzMzMwOV5BMl5BanBnXkFtZTYwNjg1NzY0._V1_UY317_CR1,0,214,317_AL_.jpg">
-								<div>Carol Kane</div>
-								<div>Lillian Kaushtupper</div>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<img src="http://wudesign.me/resources/complex-selectors/images/jane.jpg">
-								<div>Jane Krakowski</div>
-								<div>Jacqueline White</div>
-							</a>
-						</li>
-					</ul>
-					<div>
-						<a href="#" class="see-all">See All...</a>
-					</div>
-				</section>
-			</li>
-		</ul>
-	</section>
+        <h1>Basic syntax for the <code class="tag">img</code> tag</h1>
 
-	<section class="challenges">
-		<h1>Challenges:</h1>
-		<p>Make the following design changes <strong>without modifying the html in any way.</strong> <strong>Only modify your own <code>styles.css</code> file.</strong>The challenges are progressively more complicated, but each can be accomplished with a single selector. Some challenges will require multiple properties/value pairs.</p>
-		<ol>
-			<li>Set the <code>margin-bottom</code> of the <code>header</code> to <code>3rem</code>.</li>
-			<li>Set the <code>line-height</code> of all paragraphs to <code>1.6</code>.</li>
-			<li>Make the font-size of the "See All..." links <code>0.8em</code>, and make them <code>uppercase</code>.</li>
-			<li>Make the font-size of show titles <code>2.5rem</code>.</li>
-			<li>Make the section-titles <code>uppercase</code>, and font-size <code>1rem</code>.</li>
-			<li>Make all title fonts light weight.</li>
-			<li>Make the cast images <code>width:100%;</code>.</li>
-			<li>Make each castmember element <code>width:25%;</code>. (The element that represents the whole castmember in the list, not just the image.)</li>
-			<li>Add a <code>1px solid black</code> border above each show — <strong>without unintentionally adding borders elsewhere</strong>.</li>
-			<li>Make the navigation tab with the <code>.selected</code> class be bold and black.</li>
-			<li>Make the castmember labels <code>0.8rem</code>.</li>
-			<li>Make the actor/actress names bold.</li>
-			<li>Make the character names italic.</li>
-			<li>Add an asterisk (<code>*</code>) to the last year in the <em>Game of Thrones</em> seasons list.</li>
-			<li>Add the text <code>"* Final Season"</code> on the next line after the <em>Game of Thrones</em> season list. Make it <code>0.7rem</code>, and color it to be <code>#999</code>.</li>
-		</ol>
-	</section>
+        <p>The <code class="tag">img</code> tag is the simplest and most common way to display an image in an html page.
+            <img src="http://wudesign.me/resources/using-images/images/smiley.jpg" alt="smile">
+            It requires a <code>src</code> attribute, which indicates where the browser will find the image, and an <code>alt</code> attribute, which provides a textual version of the image for screen-readers.</p>
 
-</body>
+        <samp><code class="tag">img src="path/to/image.jpg" alt="My image"</code></samp>
+
+        <ol class="instructions">
+          <li>Add an <code class="tag">img</code> in the first paragraph of this section. Use this src: <code>http://wudesign.me/resources/using-images/images/smiley.jpg</code>.</li>
+          <li>Be sure to include the <code>alt</code> attribute, with a meaningful value.</li>
+        </ol>
+
+        <p>An <code class="tag">img</code> element is, by default, an <em>inline</em> element, so it will wrap with other inline elements on the page.</p>
+        
+      </section>
+      
+      <section>
+
+        <h1>Sizing an <code class="tag">img</code></h1>
+
+        <p><code class="tag">img</code> tags can be sized with CSS. Like other elements, you can add an id, class, or other attributes as you see fit in order to assist with styling. Generally, it is best to set <em>only</em> width <em>or</em> height, not both. If you set only one, the browser will set the other automatically in order to maintain the aspect-ratio of your image source file.</p>
+        
+        <ol class="instructions">
+          <li>Add an <code class="tag">img</code> below this set of instructions. Use src: <code>http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg</code>.</li>
+          <li>The image will be huge. So, add <code>class="full-screen"</code> to the tag, then use that class as the selector for a style rule that sets <code>width: 100%;</code> on the image.</li>
+        </ol>
+
+        <img class="full-screen" src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="shelf-cloud-wide">
+
+      </section>
+
+      <section>
+
+        <h1>Cropping an <code class="tag">img</code></h1>
+
+        <p>Sometimes your source image doesn't match the aspect-ratio of the space you need to fill. What if we want to put our wide image into a square? First, let's try just setting both width and height.</p>
+
+        <ol class="instructions">
+          <li>Add another <code class="tag">img</code> after this set of instructions. Again, use src: <code>http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg</code>.</li>
+          <li>This time, add <code>class="square"</code> to the tag, and use that class as the selector for a style rule that sets <code>width: 280px; height: 280px;</code> on the image.</li>
+        </ol>
+
+        <img class="square" src="http://wudesign.me/resources/using-images/images/shelf-cloud-wide.jpg" alt="square">
+
+        <p>The image is stretched! Not what we wanted. We need to tell the image to be cropped, not stretched.</p>
+
+        <ol class="instructions">
+          <li>On your <code>.square</code> ruleset, add <code>object-fit: cover;</code></li>
+        </ol>
+
+        <p>Now the image is cropped, instead of stretched. The <code>cover</code> value tells the browser to scale the image proportionally such that it just covers the entire area of the <code class="tag">img</code> tag, but no larger. (You can also use the <code>contain</code> value, which scales the image proportionally to fit entirely inside the area of the <code class="tag">img</code>tag.) The image will be centered by default, but the center is not really the best part of this particular image, so let's reposition it.</p>
+
+        <ol class="instructions">
+          <li>On your <code>.square</code> ruleset, add <code>object-position: left center;</code></li>
+        </ol>
+
+        <p>The <code>object-position</code> value can have two parts, the first for the horizontal position, the second for vertical position. We can use words like <code>left</code>, <code>right</code>, and <code>top</code>, or numerical values like <code>100px</code> or <code>20%</code>.</p>
+
+      </section>
+    
+    </article>
+
+    <article>
+
+      <h1>Background images</h1>
+
+    <section>
+
+      <h1>Background image syntax</h1>
+
+      <p>The <code class="tag">img</code> tag is useful when the image is part of your actual content, but it's often not ideal when using an image as a style element behind other content. CSS provides a mechanism for using images as backgrounds to other elements. Let's add a background image to the example definition below.</p>
+
+      <ol class="instructions">
+        <li>Create a css ruleset with selector <code>.background-image-example</code>, and add this rule: <code>background-image: url(http://wudesign.me/resources/using-images/images/shelf-cloud-vertical.jpg);</code></li>
+      </ol>
+
+      <div class="background-image-example">
+        <p><dfn>Shelf Cloud:</dfn> A low-hanging, well-defined, wedge-shaped formation that occurs along the leading edge of a gust front in a thunderstorm. Shelf clouds most often form just ahead of intense lines of thunderstorms.</p>
+      </div>
+
+      <p>You'll see that the background image only extends as far as the edges of the element being styled &mdash; so in this case, only a few sentences. Let's add some padding to that <code class="tag">div</code>, so we can see more of the image.</p>
+
+      <ol class="instructions">
+        <li>For <code>.background-image-example</code>, set <code>padding: 10% 5% 45% 40%;</code></li>
+      </ol>
+
+    </section>
+
+    <section>
+
+      <h1>Sizing and positioning background images</h1>
+
+      <p>We can use <code>background-size: cover;</code> to scale the background image to fit its container, similar to <code>object-fit: cover;</code> for <code class="tag">img</code> tags. Similarly, we can use <code>background-position</code> to control the position of the image within the frame. The <code>background-position</code> value can have two parts, a horizontal and vertical component, just like <code>object-fit</code> did. In this case, <code>center 20%</code> works nicely.</p>
+
+      <ol class="instructions">
+        <li>Set <code>background-size: cover;</code></li>
+        <li>Set <code>background-position: center 20%;</code></li>
+      </ol>
+    
+    </section>
+   
+  </article>
+
+  <article>
+
+    <h1>Preparing images for the web</h1>
+
+    <section>
+
+      <h1>Selecting the right file type</h1>
+
+      <p>A number of factors come into play when selecting which file type to use for a given image. Is the image <dfn>raster</dfn> (like a photo, comprised of a grid of pixels), or <dfn>vector</dfn> (described by mathematical equations, like an illustrator file)? Is it going to be displayed at large sizes and therefore must be well-compressed to minimize download time, or will it be very small, such that compression won't matter as much? Does it require transparency? Must it animate? The following table compares the four most commonly-used image file types.</p>
+
+      <figure>
+        <figcaption>A comparison of image file types</figcaption>
+        <table>
+          <tr>
+            <th>jpg</th>
+            <th>gif</th>
+            <th>png</th>
+            <th>svg</th>
+          </tr>
+          <tr>
+            <td><img src="http://wudesign.me/resources/using-images/images/smiley.jpg" alt="jpg smiley"></td>
+            <td><img src="http://wudesign.me/resources/using-images/images/smiley.gif" alt="gif smiley"></td>
+            <td><img src="http://wudesign.me/resources/using-images/images/smiley.png" alt="png smiley"></td>
+            <td><img src="http://wudesign.me/resources/using-images/images/smiley.svg" alt="svg smiley"></td>
+          </tr>
+          <tr>
+            <td>
+              <img src="http://wudesign.me/resources/using-images/images/shelf-cloud.jpg" alt="jpg shelf cloud">
+              <small>36KB</small>
+            </td>
+            <td>
+              <img src="http://wudesign.me/resources/using-images/images/shelf-cloud.gif" alt="gif shelf cloud">
+              <small>138KB</small>
+            </td>
+            <td>
+              <img src="http://wudesign.me/resources/using-images/images/shelf-cloud.png" alt="png shelf cloud">
+              <small>422KB</small>
+            </td>
+            <td><div class="na">Not applicable, SVG is vector only!</div></td>
+          </tr>
+          <tr class="pros-cons">
+            <td>
+              <strong>Pros:</strong>
+              <ul>
+                <li>Very small file size for photos</li>
+              </ul>
+            </td>
+            <td>
+              <strong>Pros:</strong>
+              <ul>
+                <li>Can be animated</li>
+                <li>Small file size for solid colors</li>
+              </ul>
+            </td>
+            <td>
+              <strong>Pros:</strong>
+              <ul>
+                <li>Lossless compression</li>
+                <li>Full transparency</li>
+                <li>Works for photos and graphics</li>
+              </ul>
+            </td>
+            <td>
+              <strong>Pros:</strong>
+              <ul>
+                <li>Lossless compression</li>
+                <li>Full transparency</li>
+                <li>Infinite scaling</li>
+                <li>Usually small file size</li>
+              </ul>
+            </td>
+          </tr>
+          <tr class="pros-cons">
+            <td>
+              <strong>Cons:</strong>
+              <ul>
+                <li>Lossy compression</li>
+                <li>Adds artifacts in areas of high contrast</li>
+                <li>No transparency</li>
+              </ul>
+            </td>
+            <td>
+
+              <strong>Cons:</strong>
+              <ul>
+                <li>limited color palette</li>
+                <li>High noise/banding</li>
+                <li>Larger file size</li>
+                <li>1-bit transparency (rough edges)</li>
+              </ul>
+            </td>
+            <td>
+              <strong>Cons:</strong>
+              <ul>
+                <li>Very large file size</li>
+              </ul>
+            </td><td>
+              <strong>Cons:</strong>
+              <ul>
+                <li>No support for raster images</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </figure>
+
+    </section>
+
+    <section>
+
+      <h1>Managing file size (and therefore download time) for raster images</h1>
+
+      <p>Image fidelity and file-size are inextricably linked. Both are a function of the number of pixels in the image, and the amount/type of compression applied. These are both variables over which you have control, and which you <em>must</em> control in order to find the right balance between quality and download-time.</p>
+
+      <p>First, decide what is the maximum width at which this image is displayed? For instance, in this document, the main column is constrained at 800px wide, and will never get wider. An image wider than 800 pixels is therefore unnecessary, we use crop and/or image sizing tools in Photoshop to make the image be 800px wide.</p>
+
+      <p>Second (at least for a jpg image), we decide how much compression to apply. This is best done using Photoshop's 'Export As...' feature, which opens the image in a window that allows you to try out compression settings while seeing their effet on image quality. In most cases, jpg compression higher than 60% is unnecessary, and 35-45% is often fine.</p>
+
+      <p>Taking these two steps when preparing an image for use can make a <em>dramatic</em> difference in file size, and therefore download time. It's not uncommon to reduce the file to a 10<sup>th</sup> or even 100<sup>th</sup> of it's original uncompressed size, meaning it will download more quickly &mdash; by orders of magnitude.
+
+      <ol class="instructions">
+        <li>Create an <code>images</code> folder for this project.</li>
+        <li>Use a photo of your own, or right-click and "Save Image As..." the wide-angle cloud photo above.</li>
+        <li>Open the image in Photoshop, and use <code>File > Export > Export as...</code> to save a jpg version of the image that is appropriately sized and compressed as much as you can before it noticably degrades.</li>
+        <li>Save the image into the <code>images</code> folder you created.</li>
+        <li>Add an <code class="tag">img</code> tag inside the <code class="tag">figure</code> element below this set of instructions. The <code>src</code> will be something like <code>src="images/my-image.jpg"</code>.</li>
+        <li>Create a style rule that sets this image to be <code>width: 100%;</code></li>
+        <li>Put the image's pixel width, the compression setting you used, and the resulting file size into the <code class="tag">figcaption</code>.</li>
+      </ol>
+
+      
+      <figure class="compressed-image">
+        <img class="my-image" src="/Users/yangzhishu/Desktop/zhishufall2020/publish/exercises/using-images/image/karen.jpg" alt="karen">
+        <figcaption>864px wide, 33% jpeg compression, 215.4 KB</figcaption>
+      </figure>
+        
+
+      <aside>
+
+        <h1>"Resolution" is just ratio.</h1>
+
+        <p>We understand that raster images are comprised of pixels, but it may be less clear that a pixel does not have a pre-defined physical size. In some cases, such as a printed framed wedding photo, we may cram 300 or more pixels into a single linear inch. In other cases, such as an advertisement on a billboard, a single pixel might well be more than an inch wide. This ratio of how many pixels we're squeezing into a single inch is called <dfn>resolution</dfn>. The word resolution, when used properly, does <em>not</em> mean "how much data the file contains." It's perfect possible to create a 300dpi image that is only 10 pixels wide. The image is just very small physically. Conversely, we can create a 10dpi file that is 10,000 pixels wide. It is low-resolution, but very, very large. Asking "What resolution is the file?" is like asking "How fast is it to Kansas City?" The answer "72dpi" is meaningless on its own, just like "72mph" is. When we actually care about determining how much data an image file contains, we ask for the 'pixel dimensions' of the file &mdash; that is, the the actual number of pixels in the file, horizontally and vertically.</p>
+
+      </aside>
+
+    </section>
+    
+  </article>
+
+  </body>
 </html>
