@@ -1,114 +1,68 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Szechuan Pork in Spicy Broth Recipe</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Basic Responsive Design Techniques</title>
+    <link href="https://wudesign.me/resources/responsive-design-techniques/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <body>
+<body>
 
-        <header>
-            <h1>Szechuan Pork in Spicy Broth Recipe</h1>
-            <p>Szechuan Pork – a quick, easy and utterly delicious meal good for any night of the week. Szechuan cuisine is a style of Chinese cuisine, originating in the province of Sichuan. Szechuan cuisine has very bold flavors and spiciness resulting from use of garlic and chili peppers.</p>
-            <div>
-                <img src="https://i.pinimg.com/564x/7e/4a/8c/7e4a8cda9ddc9ed3d2c7997d5c082276.jpg">
-            </div>
+	<header>
+		<h1>Responsive Design Techniques</h1>
+		<p>For each section in this document, complete the challenge as described.</p>
+	</header>
 
-        </header>
+	<section id="body-width-management">
+		<p>Make the <code>&lt;body&gt;</code> of this document be <code>800px</code> wide <em>and</em> <code>90%</code> the width of the viewport, whichever is smaller. Center the body on the page no matter how wide the viewport is.</p>
+	</section>
 
-        <div class="recipe">
-            <section class="zuofa">
-                <h2>Ingredients</h2>
-                <ul>
-                    <li>
-                        150 g pork chops or pork butt
-                    </li>
-                    <li>
-                        1 small bunch of water spinach
-                    </li>
-                    <li>
-                        pinch of salt
-                    </li>
-                    <li>
-                        4 tablespoons starch
-                    </li>
-                    <li>
-                        1 tablespoon Chinese cooking wine
-                    </li>
-                    <li>
-                        1.5 tablespoon wate
-                    </li>
-                    <li>
-                        2 green onions
-                    </li>
-                    <li>
-                        2 star anises
-                    </li>
-                    <li>
-                        5-8 dried chili pepper
-                    </li>
-                    <li>
-                        1/2 teaspoon Sichuan pepper
-                    </li>
-                    <li>
-                        1 tablespoon doubajiang 
-                    </li>
-                    <li>
-                        1 teaspoon dou-chi , optional
-                    </li>
-                    <li>
-                        1 +2 tablespoons cooking oil
-                    </li>
-                    <li>
-                        3 garlic cloves , sliced
-                    </li>
-                    <li>
-                        1 thumb ginger , sliced
-                    </li>
-                    <li>
-                        coriander for garnishing
-                    </li>
-                </ul>
-            </section>
-        
-            <section class="Instructions">
-                <h2>Instructions</h2>
-                <ul>
-                    <li>
-                        Slice the pork thinly and then add pinch of salt, starch, cooking wine and water. Combine well and set aside for 10 minutes. The pork slices should be well coated with the starch. This is to guarantee the thin outside layer protecting the pork overcooked.
-                    </li>
-                    <li>
-                        In a wok, add 1 tablespoon of oil, fry half of the chili pepper, half of Sichuan peppercorn, star anise over lowest fire until aroma. Then add ginger, garlic and green onion whites, cook for around another 30 seconds.
-                    </li>
-                    <li>
-                        Add doubanjiang and dou-chi in, fry until you can see the red oil come out.
-                    </li>
-                    <li>
-                        Pour around 1L water in. Simmer for around 15-20 minutes with lid covered. During this process, you may smell the strong aroma bought by the broth.
-                    </li>
-                    <li>
-                        During the process, in another pot, cook water spinach for around 30 seconds in boiling water (with pinch of salt and several drops of oil). Transfer out and lay in the bottom of the serving bowl.
-                    </li>
-                    <li>
-                        Grasp the pork again to make sure they are evenly coated. Turn up fire and add the pork slices in and cook until the broth begin to boil again. Wait for around 20 to 30 seconds and transfer them out immediately.
-                    </li>
-                    <li>
-                        Heat up around 2 tablespoons of cooking oil again in wok with the left chili pepper and Sichuan pepper over slow fire until really hot (you can smell the strong aroma and the chili pepper begins to turn dark). Evenly pour the oil on the surface of the serving bowl. Be careful during the process; do not get burnt!
-                    </li>
-                    <li>
-                        Serve directly or garnish with green onion and coriander.
-                    </li>
-                </ul>
-            </section>
-        </div>
+	<section id="background-color">
+		<p>Make the <code>background-color</code> of this document to <code>#eaf6ff</code> when the viewport width is <code>640px</code> or more.</p>
+	</section>
 
-    </body>
+	<section id="headline-size">
+		<p>Make the <code>&lt;h1&gt;</code> on this page have a <code>font-size</code> of <code>1.5rem</code> when the viewport width is below <code>500px</code>, and <code>2.5rem</code> when the viewport width is above <code>640px</code>.</p>
+	</section>
 
-    <footer>
-        <p>Content from <a target="_blank" href="https://www.chinasichuanfood.com/shui-zhu-pork-szechuan-pork-in-spicy-broth/">China Sichuan Food</a> </p>
-    </footer>
+	<section id="fixed-size-grid-items">
+		<p>Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <code>&lt;aside&gt;</code> <code>170px</code> wide, with a <code>10px</code> margin. Set the <code>font-size</code> for the boxes to be <code>0.8rem</code>. Be sure to remove the bullets associated with the <code>&lt;li&gt;</code> tags, and remove the default <code>padding-left</code> on the <code>&lt;ul&gt;</code>.</p>
+		<ul>
+			<li>
+				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
+			</li>
+			<li>
+				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+			</li>
+			<li>
+				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
+			</li>
+			<li>
+				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
+			</li>
+		</ul>
+	</section>
 
+	<section id="stretchable-grid-items">
+		<p>As above, make a grid of boxes that wrap horizontally. This time, give each <code>&lt;li&gt;</code> a width of 100%. When the viewport width is greater than 480px, make each <code>&lt;li&gt;</code> be <code>50%</code> wide. If the viewport is greater than 640px, make each <code>&lt;li&gt;</code> be <code>25%</code> wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <code>&lt;aside&gt;</code> elements, but be sure they have a <code>10px</code> margin.</p>
+		<p>Now, set the <code>&lt;ul&gt;</code> to have a <code>margin</code> of <code>-10px</code> left and right, <code>1rem</code> top and bottom. What happens?</p>
+		<ul>
+			<li>
+				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
+			</li>
+			<li>
+				<aside>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</aside>
+			</li>
+			<li>
+				<aside>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco laboris nisi ut aliquip ut labore et dolore magna aliqua.</aside>
+			</li>
+			<li>
+				<aside>Sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur consectetur adipisicing elit sint occaecat cupidatat non proident.</aside>
+			</li>
+		</ul>
+	</section>
+
+</body>
 </html>
