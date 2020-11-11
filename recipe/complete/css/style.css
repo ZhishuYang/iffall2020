@@ -84,3 +84,10 @@ h2 {
 .zuofa {
     line-height: 3rem;
 }
+
+.cookingtime {
+    text-align: center;
+    font-size: 20px;
+    color: #9b1f00;
+    font-weight: 500;
+}
