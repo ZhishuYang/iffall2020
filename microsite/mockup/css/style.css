@@ -1,0 +1,12 @@
+img {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
