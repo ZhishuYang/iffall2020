@@ -1,0 +1,570 @@
+div.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+main {
+    margin: 40px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+a#btn_cocacola {
+    display: inline-block;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 40px;
+    margin-top: 40px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+    z-index: 10;
+}
+
+a#btn_cocacola:hover {
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+}
+
+a#btn_cocacola span {
+    position: relative;
+    z-index: 10;
+    top: 35%;
+    font-size: 35px;
+}
+
+a#btn_cocacola:active {
+    background-color: rgb(255, 153, 0);
+    box-shadow: 0 0 2px yellow;
+    transform: translate(-40%, -20%) scale(0.6);
+    color: white;
+}
+
+a#btn_apple {
+    position: relative;
+    top: 30%;
+    transition: all .8s;
+    text-decoration: none;
+    font-size: 80px;
+    color: black;
+}
+
+a#btn_apple:hover {
+    color: rgb(126, 126, 126);
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+    font-size: 100px;
+}
+
+a#btn_mk {
+        display: inline-block;
+        position: relative;
+        margin-top: 70px;
+        font-size: 35px;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        text-align: center;
+        line-height: 110px;
+        color: white;
+        background-color: black;
+        border: 2px solid rgb(255, 255, 255);
+        transition: all 0.5s;
+        text-decoration: none;
+}
+
+a#btn_mk:hover {
+    background-color: rgb(83, 61, 46);
+    color: gold;
+    box-shadow: 7px 7px 5px 0px rgba(133, 89, 89, 0.75);
+}
+
+a#btn_lyft {
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    position: relative;
+}
+
+a#btn_lyft .fa-lyft {
+    transform: scale(6);
+    margin-top: 120px;
+    position: absolute;
+    color: rgb(212, 51, 151);
+}
+
+a#btn_lyft .fa-lyft:active {
+    z-index: 10;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 0px rgba(228, 48, 174, 0.75);
+    transition:cubic-bezier(0.65,0.05,0.36,1);
+}
+
+a#btn_lyft .fa-lyft:hover {
+    color: tomato;
+    transform: scale(7.5);
+}
+
+a#btn_samsung {
+    position: relative;
+    top: 43%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-decoration: none;
+    color: rgb(16, 16, 163);
+    transition: all 1s;
+    letter-spacing: 2px;width: 160px;
+    height: 60px;
+    border-radius: 100%;
+    
+}
+
+a#btn_samsung:hover {
+    background-color: rgb(16, 16, 163);
+    color: white;
+}
+
+a#btn_nike {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;  
+}
+
+.nike {
+    width: 180px;
+}
+    
+
+a#btn_nike div {
+    color: black;
+    font-size: 30px;
+    opacity: 0%;
+    display: none;
+}
+
+a#btn_nike:hover div {
+    opacity: 100%;
+    display: block;
+    color: red;
+    font-style: italic;
+}
+
+.tesla {
+    width: 180px;
+}
+
+a#btn_tesla {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#btn_tesla:hover {
+    filter: drop-shadow(3px 3px 3px rgb(56, 1, 1));
+    width: 200px;
+    transition: .4s;
+}
+
+a#btn_colorrun {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+a#btn_colorrun span.the {
+    color: rgb(75, 170, 19);
+}
+
+a#btn_colorrun span.color {
+    color: rgb(238, 118, 97);
+}
+
+a#btn_colorrun span.run {
+    color: rgb(148, 41, 148);
+}
+
+a#btn_colorrun:hover span.the {
+    color: teal;
+    text-shadow: 7px 3px 2px rgb(150, 150, 150);
+}
+
+a#btn_colorrun:hover span.color {
+    color: rgb(253, 197, 253);
+    text-shadow: 7px 3px 2px rgb(201, 201, 201);
+}
+
+a#btn_colorrun:hover span.run {
+    color: rgb(255, 210, 126);
+    text-shadow: 7px 3px 2px rgb(209, 209, 209);
+}
+
+a#btn_moo {
+    position: relative;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;  
+}
+
+a#btn_moo i{
+    position: absolute;
+    transform: scale(3);
+    margin-left: -50px;
+    margin-top: 20px;
+    opacity: 0%;
+}
+
+a#btn_moo span {
+    top: 50%;
+    font-size: 50px;
+    color: green;
+}
+
+a#btn_moo:hover i {
+    color: rgb(93, 169, 255);
+    opacity: 100%;
+}
+
+a#btn_moo:hover span {
+    color: rgb(104, 18, 18);
+}
+
+a#btn_pottermore {
+    position: relative;
+    top: 30%;
+    left: -40%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;   
+}
+
+a#btn_pottermore img {
+    width: 220px;
+    position: absolute;
+    transition: all 1s;
+}
+
+a#btn_pottermore i {
+    position: absolute;
+    transform: scale(2.5);
+    margin-top: -15px;
+    opacity: 0;
+    transition: all 1s;
+    color: grey;
+}
+
+a#btn_pottermore:hover i {
+    margin-left: 100px;
+    opacity: 100%;
+    color: goldenrod;
+}
+
+a#btn_pottermore:hover img {
+    transform: rotate(360deg);
+}
+
+a#btn_newyorker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;  
+    font-family: 'Dancing Script', cursive;;
+    font-size: 35px;
+    color: black;
+}
+
+a#btn_newyorker:hover {
+    color: darkcyan;
+    text-shadow: -23px -12px 2px rgb(199, 199, 199);;
+}
+
+a#btn_npr {
+    position: relative;
+    top: 40%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+a#btn_npr img {
+    width: 180px;
+}
+
+a#btn_npr img.nprone {
+    transition: all 0.8s;
+}
+
+a#btn_npr img.nprtwo {
+    opacity: 0;
+}
+
+a#btn_npr:hover img.nprone {
+    transition: all 1s;
+    opacity: 0;
+}
+
+a#btn_npr:hover img.nprtwo {
+     transform: translateY(-65px);
+     transition: all 1s;
+     opacity: 100%;
+}
+
+a#btn_instagram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_instagram img.ins {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 15px;
+    width: 100px;
+}
+
+a#btn_instagram img.instagram {
+    width: 130px;
+    opacity: 0;
+}
+
+a#btn_instagram:hover img.ins {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+a#btn_instagram:hover img.instagram {
+    opacity: 100%;
+    transition: all 0.5s;
+    transform: scale(2);
+}
+
+a#btn_facebook {
+    display: inline-block;
+	height: 40px;
+	box-sizing: border-box;
+	border-radius: 4px;
+    margin: auto;
+	margin-top: 105px;
+	padding: 10px 30px 0 30px;
+	background-color: #192461;
+	color: #fff;
+	font-size: 18px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+a#btn_facebook:hover {
+    background-color: deepskyblue;
+    color: black;
+    box-shadow: 16px 8px 8px 0px rgba(50, 50, 50, 0.75);;
+}
+
+a#btn_oldnavy {
+    display: inline-block;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px 40px 0 40px;
+    background-color: navy;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a#btn_oldnavy:hover {
+    background-color: white;
+    border: 2px solid navy;
+    color: navy;
+}
+
+a#btn_ibm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: olive;
+}
+
+a#btn_ibm img {
+    width: 130px;
+    opacity: 0;
+}
+
+a#btn_ibm span {
+    position: absolute;
+    margin-left: 10px;
+}
+
+a#btn_ibm:hover span {
+    opacity: 0;
+    transition: all 1s;
+}
+
+a#btn_ibm:hover img {
+    opacity: 100%;
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+a#btn_ideo {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 8px 16px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-decoration: none;
+    color: orangered;
+}
+
+a#btn_ideo:hover {
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 40px;
+    transition: all .7s;
+}
+
+a#btn_nbc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a#btn_nbc img {
+    width: 100px;
+}
+
+a#btn_nbc img.nbc {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+
+a#btn_nbc:hover img.nbc {
+    opacity: 0%;
+    transition: all .5s;
+}
+
+a#btn_nbc img.nbclogo {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -40px;
+    opacity: 0;
+}
+
+a#btn_nbc:hover img.nbclogo {
+    margin-left: -40px;
+    transition: all 1s;
+    opacity: 100%;
+    transform: rotate(360deg);
+}
+
+a#btn_army {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a#btn_army span {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a#btn_army img {
+    position: absolute;
+    width: 120px;
+    margin-top: -30px;
+    margin-left: -35px;
+}
+
+a#btn_army:hover i {
+    position: relative;
+    transform: scale(3);
+    color: navy;
+    transition:  all 1s;
+}
+
+a#btn_army:hover img {
+    opacity: 10%;
+    transition: all .3s;
+}
+
+a#btn_fitbit {
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+}
+
+a#btn_fitbit img {
+    width: 120px;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -20px;
+    opacity: 0%;
+
+}
+
+a#btn_fitbit span {
+    position: relative;
+    font-size: 40px;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    color: rgb(64, 131, 131);
+}
+
+a#btn_fitbit:hover img {
+    position: absolute;
+    margin-left: -60px;
+    opacity: 100%;
+    transition: all 0.8s;
+}
+
+a#btn_fitbit:hover span {
+    color: black;
+    text-decoration: underline;
+}
