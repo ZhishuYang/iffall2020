@@ -1,0 +1,201 @@
+html {
+    background:#f9f2dc;
+}
+
+nav li.his-history a {
+    text-decoration: underline;
+    color: orangered;
+}
+
+nav li.his-history:hover {
+    background-color: rgb(70, 70, 168);
+}
+
+nav li.his-history a:hover {
+    text-decoration: none;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    width: 900px;
+}
+
+.main-nav {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding-top: 40px;
+    background-color: #fde7b5ef;
+    padding-bottom: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    padding-left: 180px;
+}
+
+.main-nav li {
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    margin-left: 50px;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.main-nav li a {
+    display: inline-block;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    Font-size: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav li:hover {
+    background-color: rgba(235, 90, 37, 0.781);
+    width: 140px;
+    height: 30px;
+}
+
+.second-nav {
+    overflow: hidden;
+    padding-bottom: 40px;
+    font-size: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: fixed;
+}
+
+.second-nav li {
+    display: block;
+    text-align: center;
+    margin-left: 1000px;
+    height: 70px;
+}
+
+.second-nav li a {
+    text-decoration: none;
+    color: rgb(99, 25, 47);
+}
+
+.second-nav li a:hover {
+    text-decoration: underline;
+}
+
+img.flower-icon {
+    width: 70px;
+    margin-left: 930px;
+    margin-top: 200px;
+
+}
+
+div ul:hover img.flower-icon {
+    transform: rotate(360deg);
+    transition: all 1s;
+}
+
+.female-image {
+    position: absolute;
+    width: 300px;
+    margin-left: 300px;
+}
+
+section:hover .female-image {
+    opacity: 0%;
+}
+
+.female-image-two {
+    position: relative;
+    width: 300px;
+    margin-left: 300px;
+    opacity: 0%;
+    margin-bottom: 30px;
+}
+
+section:hover .female-image-two {
+    opacity: 100%;
+    transform: all 2s;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 80px;
+}
+
+h2.special {
+    padding-top: 200px;
+}
+
+.section-one {
+    margin-top: 200px;
+}
+
+hr {
+    margin-left: 0;
+    max-width: 800px;
+    width: 100%;
+    height: 2px;
+    border-width: 0;
+    color: orangered;
+    background-color: orangered;
+    margin-bottom: 30px;
+}
+
+.genroku-image {
+    position: absolute;
+    width: 300px;
+    margin-left: 300px;
+}
+
+section:hover .genroku-image {
+    opacity: 0%;
+}
+
+.genroku-image-two {
+    position: relative;
+    width: 300px;
+    margin-left: 300px;
+    opacity: 0%;
+    margin-bottom: 30px;
+}
+
+section:hover .genroku-image-two {
+    opacity: 100%;
+    transform: all 2s;
+}
+
+.saruwaka-cho-image {
+    position: absolute;
+    width: 300px;
+    margin-left: 300px;
+}
+
+section:hover .saruwaka-cho-image {
+    opacity: 0%;
+}
+
+.saruwaka-cho-image-two {
+    position: relative;
+    width: 300px;
+    margin-left: 300px;
+    opacity: 0%;
+    margin-bottom: 20px;
+}
+
+section:hover .saruwaka-cho-image-two {
+    opacity: 100%;
+    transform: all 2s;
+}
+
+.last-paragraph {
+    padding-bottom: 80px;
+}
+
+section  {
+    font-family: 'Crimson Text', serif;
+}
